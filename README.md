@@ -1,5 +1,4 @@
-# CodecademyProjects
-All projects done for Backend Development Course Track
+# Projects
 
 1. Whale Talk - takes an input string and counts all the vowels, doubles them if necessary, and returns a string of vowels that are used by whales.
 
