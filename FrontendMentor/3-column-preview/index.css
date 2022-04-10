@@ -5,7 +5,7 @@
 --Bright-orange: hsl(31, 77%, 52%);
 --Dark-cyan: hsl(184, 100%, 22%);
 --Very-dark-cyan: hsl(179, 100%, 13%);
---Transparent-white: hsla(0, 0%, 100%, 0.75);
+--Transparent-white: hsl(0, 0%, 100%, 0.75);
 --Very-light-gray: hsl(0, 0%, 95%);
 }
 body {
@@ -37,7 +37,7 @@ p {
     text-align: center;
     font-family: "Lexend Deca";
     font-weight: 400;
-    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 100%, 0.75);
     margin-top: 50px;
     border: 2px solid hsla(0, 0%, 100%, 0.75);
     border-radius: 50px;
@@ -45,6 +45,17 @@ p {
 }
 .button:hover{
     cursor: pointer;
+    background-color: transparent;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.btn1 {
+    color:hsl(31, 77%, 52%);
+}
+.btn2 {
+    color:hsl(184, 100%, 22%);
+}
+.btn3 {
+    color:hsl(179, 100%, 13%);
 }
 .flex-item {
     padding: 50px;
@@ -61,8 +72,25 @@ p {
     border-radius: 0 10px 10px 0;
 }
 
-@media (width : 375px) {
+@media (max-width : 600px) {
     .flex-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
         flex-direction: column;
+        height: 100vh;
+    }
+    .flex1 {
+        background-color: var(--Bright-orange);
+        border-radius: 10px 10px 0 0;
+    }
+    .flex2 {
+        background-color: var(--Dark-cyan);
+    }
+    .flex3 {
+        background-color: var(--Very-dark-cyan);
+        border-radius: 0px 0px 10px 10px;
     }
 }
