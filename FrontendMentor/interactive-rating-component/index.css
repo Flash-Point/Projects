@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    font-family: "overpass";
+    background-color: var(--Very-Dark-Blue);
+}
+
+#star-icon {
+    padding-top: 12.5px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--Light-Grey);
+    border-radius: 50%;
+    text-align: center;
+}
+
+h2 {
+    color: var(--White);
+}
+
+p {
+    color: var(--Medium-Grey);
+    line-height: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    width: 45px;
+    height: 45px;
+    padding-top: 13px;
+    margin-right: 20px;
+    display: inline-block;
+    color: var(--Medium-Grey);
+    background-color: var(--Light-Grey);
+    border-radius: 50%;
+    text-align: center;
+}
+
+li:hover {
+    background-color: var(--Orange);
+    color: var(--White);
+    cursor: pointer;
+}
+
+#btn {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--White);
+    border-radius: 50px;
+    background-color: var(--Orange);
+    padding: 15px;
+}
+
+#btn:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+    cursor: pointer;
+}
+
+#rating-text {
+    color: var(--Orange);
+    background-color: var(--Light-Grey);
+    width: 180px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.box {
+    width: 22%;
+    height: 40vh;
+    padding: 30px;
+    margin: 10px;
+    background-color: var(--Dark-Blue);
+    border-radius: 25px;
+}
+
+.box2 {
+    text-align: center;
+}
