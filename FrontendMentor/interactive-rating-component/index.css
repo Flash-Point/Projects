@@ -4,7 +4,7 @@
 
 :root {
     --White: hsl(0, 0%, 100%);
-    --Light-Grey: hsl(217, 12%, 63%);
+    --Light-Grey: hsla(217, 12%, 63%, 0.2);
     --Medium-Grey: hsl(216, 12%, 54%);
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
@@ -21,7 +21,7 @@ body {
 }
 
 #star-icon {
-    padding-top: 12.5px;
+    padding-top: 13px;
     width: 45px;
     height: 45px;
     background-color: var(--Light-Grey);
@@ -47,6 +47,7 @@ li {
     height: 45px;
     padding-top: 13px;
     margin-right: 20px;
+    margin-bottom: 15px;
     display: inline-block;
     color: var(--Medium-Grey);
     background-color: var(--Light-Grey);
@@ -66,8 +67,9 @@ li:hover {
     letter-spacing: 1px;
     color: var(--White);
     border-radius: 50px;
+    width: 93%;
     background-color: var(--Orange);
-    padding: 15px;
+    padding: 10px;
 }
 
 #btn:hover {
@@ -79,20 +81,26 @@ li:hover {
 #rating-text {
     color: var(--Orange);
     background-color: var(--Light-Grey);
-    width: 180px;
+    max-width: 180px;
     margin: auto;
     border-radius: 20px;
 }
 
 .box {
-    width: 22%;
-    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 22%;
+    max-height: 40vh;
     padding: 30px;
-    margin: 10px;
     background-color: var(--Dark-Blue);
     border-radius: 25px;
 }
-
+.box1 {
+    z-index: 1;
+}
 .box2 {
     text-align: center;
+    z-index: 0;
 }
