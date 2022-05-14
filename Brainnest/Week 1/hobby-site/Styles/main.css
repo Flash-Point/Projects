@@ -1,0 +1,39 @@
+/*
+This file contains styles for the div (container) element and it's children in the main.html document.
+*/
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a, a:visited {
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-shadow: 3px 3px 4px rgba(255, 255, 255, 0), 0 0 1em;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+img {
+    padding: 30px;
+}
+
+ul li p {
+    width: 50%;
+    font-size: 1.2em;
+}
