@@ -1,0 +1,19 @@
+h1 {
+    color: black;
+}
+
+h2 {
+    color: #ffee00;
+}
+
+h3 {
+    color: hsl(0, 100%, 49%);
+}
+
+h4 {
+    color: rgb(68, 207, 53);
+}
+
+div {
+    background-color: steelblue;
+}

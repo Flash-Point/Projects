@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header-container,
+footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+#logo {
+    font-weight: bold;
+}
+
+.header-logo-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.header-logo-container ul li,
+a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header-item {
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    padding: 60px;
+}
+
+.text-block {
+    width: 23%;
+}
+
+.text-block p {
+    margin-bottom: 15px;
+}
+
+.section-three-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blue-box {
+    margin: 100px;
+    padding: 30px;
+    width: 45%;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-left span {
+    font-weight: bold;
+}
+
+#btn1 {
+    text-decoration: none;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #e5e7eb;
+    background-color: #3882F6;
+    font-weight: bold; 
+}
+
+#btn2 {
+    text-decoration: none;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #e5e7eb;
+}
+
+
+.image-block {
+    width: 550px;
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    width: 125px;
+    height: 125px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.block-container {
+    display: flex;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+
+.block-container li {
+    margin-right: -120px;
+    
+}
+
+.section-one-container h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.section-one-container ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one-container ul p {
+    width: 45%;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.section-two-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.section-two-container p {
+    width: 45%;
+    font-size: 36px;
+}
+
+.section-two-container .thor-text {
+    font-weight: bold;
+    margin-left: 700px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}

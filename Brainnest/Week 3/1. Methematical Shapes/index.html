@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Shapes</title>
+</head>
+<body>
+    <h1>Mathematical Shapes</h1>
+
+    <h3>Find Diagonal of a Square</h3>
+    <form>
+        <label>Enter length of each side:</label>
+        <input id="square-side-length" type="text"><br>
+        <button type="button" onclick="calcDiagonal()">Calculate</button><br>
+        <span id="answer-one">Answer: </span>
+    </form>
+    <br>
+    <h3>Find Area of a Triangle</h3>
+    <form>
+        <label>Enter length of side (left):</label>
+        <input id="left" type="text"><br>
+        <label>Enter length of side (right):</label>
+        <input id="right" type="text"><br>
+        <label>Enter length of side (base):</label>
+        <input id="base" type="text"><br>
+        <button type="button" onclick="calcTriangleArea()">Calculate</button><br>
+        <span id="answer-two">Answer: </span>
+    </form>
+    <br>
+    <h3>Find Circumference and Surface Area</h3>
+    <form>
+        <label>Enter radius of the circle:</label>
+        <input id="circle-radius" type="text"><br>
+        <button type="button" onclick="findCircumferenceAndArea()">Calculate</button><br>
+        <span id="circumference">Circumference: </span><br>
+        <span id="surface-area">Surface Area: </span>
+    </form>
+
+    <!--Scripts-->
+    <script src="FindDiagonal.js"></script>
+    <script src="FindTriangleArea.js"></script>
+    <script src="FindCircleCircumferenceAndArea.js"></script>
+</body>
+</html>
