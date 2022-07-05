@@ -1,7 +1,6 @@
 -Automated KKBT Miner-
 Some collegues of mine signed up on a mining platform where they needed to manually 
 login everyday to start the mine. I offered to create a script for them to automate this process.
-I have removed some sensitive data from the script.
 
 -Brainnest-
 I enrolled and completed a 5 week learnership training program for Frontend Development.
