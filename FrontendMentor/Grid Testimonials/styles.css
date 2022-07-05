@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;700&display=swap');
+
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --dark-greyish-blue: hsl(217, 19%, 35%);
+    --dark-greyish-black: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(0, 0%, 81%);
+    --light-greyish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #edf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.7;
+    font-size: 13px;
+}
+
+.grid {
+    max-width: 1440px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-bottom: 10px;
+}

@@ -42,8 +42,8 @@ let computerScore = 0;
 
 //Game goes for 5 rounds.
 for (let round = 0; round < 5; round++) {
-    const playerSelection = prompt();
-    const computerSelection = computerPlay();
+    let playerSelection = prompt();
+    let computerSelection = computerPlay();
     console.log(playRound(playerSelection, computerSelection));
 
     //Used includes() method to check if the string that playRound returns contains either a win or loose for the player.
@@ -52,6 +52,8 @@ for (let round = 0; round < 5; round++) {
     } else if (playRound(playerSelection, computerSelection).includes('Lose')) {
         computerScore++;
     }
+    console.log(`Player Score: ${playerScore}.\n`);
+    console.log(`Computer Score: ${computerScore}\n`);
 }
 //Announce the winner!
 if (playerScore > computerScore) {

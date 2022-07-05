@@ -1,0 +1,21 @@
+CSS Grid to create two-dimensional layouts using rows and columns
+
+Grid Container Properties
+
+* grid-template-columns : repeat(times, fr) - specifies how many columns in fractional units
+* grid-template-rows - specifies how many rows in fractional units
+* grid-gap - specifies the gap between grid lines
+* grid-auto-rows : minmax(height, auto) - specifies the height of rows
+* grid-auto-columns - specifies the width of columns
+* grid-template-areas - specifies the grid areas that you'd like to use
+* justify-content
+* align-items
+
+
+Grid Item Properties
+
+* grid-column
+* grid-row
+* grid-area
+* align-self
+* justify-self
